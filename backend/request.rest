@@ -1,0 +1,7 @@
+# POST  http://localhost:3001/authenticate
+#  Content-Type: application/json
+# ("username":"adam")
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{"username": "neeraj"}' \
+  http://localhost:3001/authenticate
