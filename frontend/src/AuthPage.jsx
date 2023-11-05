@@ -31,7 +31,7 @@ axios.post(
           <div className="form-subtitle">Set a username to get started</div>
   
           <div className="auth">
-            <div className="auth-label">Username</div>
+            <div className="auth-label"></div>
             <input className="auth-input" name="username" />
             <button className="auth-button" type="submit">
               Enter
